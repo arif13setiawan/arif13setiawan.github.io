@@ -34,7 +34,7 @@ a {
   font-size: 60px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  color: black;
+  color: rgb(44, 62, 80);
   animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
 }
 
