@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Copperplate Gothic Light";
 }
 
 a {
@@ -81,9 +81,9 @@ a {
 }
 
 header {
-  height: 65px;
+  height: 75px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: #8e44ad;
   position :fixed;
   top: 0;
   z-index: 10;
@@ -128,14 +128,14 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #8e44ad;
   text-align: center;
 }
 
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: #95a5a6;
 }
 
 .heading h2 {
@@ -189,16 +189,39 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
+.footer-left img {
+  width: 130px;
 }
 
-footer p {
+.footer-left p {
   color: #b3aeb5;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.footer-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #b3aeb5;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.footer-right a:hover {
+  background-color: #8e44ad;
+}
+
