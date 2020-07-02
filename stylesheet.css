@@ -34,7 +34,17 @@ a {
   font-size: 60px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  font-color: black;
+  color: black;
+  animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+}
+
+@keyframes slide-top {
+  0% {    
+            transform: translateY(0);
+  }
+  100% {    
+            transform: translateY(-100px);
+  }
 }
 
 .top-wrapper p {
@@ -51,18 +61,6 @@ a {
   margin: 10px 0;
 }
 
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
 
 .btn {
   padding: 12px 24px;
